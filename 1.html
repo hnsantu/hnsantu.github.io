@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+</head>
+<body>
+
+<h1>Drafting Console</h1>
+
+<div class="container">
+  <form action="/action_page.php">
+  
+  <label for="fname">NAME OF THE COURT</label>
+    <input type="text" id="fname" name="firstname" placeholder="COURT NAME..">
+    
+    <label for="fname">NAME OF THE JUDGE/BENCH</label>
+    <input type="text" id="fname" name="firstname" placeholder="JUDGE NAME / BENCH..">
+    
+    <label for="fname">PLACE OF THE COURT</label>
+    <input type="text" id="fname" name="firstname" placeholder="PLACE..">
+    
+    
+    <label for="fname">Plaintiff / Petitioner Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Plaintiff / Petitioner..">
+
+    <label for="lname">Defendant / Respondent Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Defendant / Respondent..">
+
+    <label for="country">Suit Catalogue</label>
+    <select id="country" name="country">
+      <option value="australia">Money Recovery Suit</option>
+      <option value="canada">Writ Petition</option>
+      <option value="usa">Criminal Suit</option>
+    </select>
+    
+     <label for="country">CASE TAG</label>
+    <select id="country" name="country">
+      <option value="australia">WA</option>
+      <option value="canada">OS</option>
+      <option value="usa">WC</option>
+    </select>
+    
+    <label for="fname">CASE NO</label>
+    <input type="text" id="fname" name="firstname" placeholder="CASE NO..">
+    
+    <label for="fname">YEAR OF SUBMIT</label>
+    <input type="text" id="fname" name="firstname" placeholder="YEAR..">
+    
+    
+    <label for="subject">Provisions and Rules</label>
+    <textarea id="subject" name="subject" placeholder="PROVISIONS OF THE LAW.." style="height:200px"></textarea>
+    
+
+    <label for="subject">Para 1</label>
+    <textarea id="subject" name="subject" placeholder="COUSE OF ACTION.." style="height:200px"></textarea>
+    
+    <label for="subject">Para 2</label>
+    <textarea id="subject" name="subject" placeholder="FACTS OF THE CASE.." style="height:200px"></textarea>
+    
+    <label for="subject">Para 3</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    
+    <label for="subject">Para 4</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    
+    <label for="subject">Para 5</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    
+    <label for="subject">Schedule</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    
+    <label for="subject">THEREFORE</label>
+    <textarea id="subject" name="subject" placeholder=" I MOST RESPECTFULY PRAY IN THE HON'BLE COURT TO..." style="height:200px"></textarea>
+    
+    <label for="subject">VERIFICATION</label>
+    <textarea id="subject" name="subject" placeholder="WHAT IS STATED ABOVE ARE ALL TRUE AND CURRECT TO THE BEST OF MY BELIFE KNOWLEDGE AND INFORMATION.." style="height:200px"></textarea> 
+    
+   <label for="fname">ADVOCATE NAME</label>
+    <input type="text" id="fname" name="firstname" placeholder="ADVOCATE..">
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
